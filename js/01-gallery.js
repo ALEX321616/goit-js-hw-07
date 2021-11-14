@@ -28,6 +28,7 @@ function onOpenImgClick(e) {
         if (isEscKey) {
           instance.close(() => window.removeEventListener("keydown", e));
         }
+        window.removeEventListener("keydown", e);
       });
     },
   });
