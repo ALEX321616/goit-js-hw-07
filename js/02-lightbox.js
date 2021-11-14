@@ -15,5 +15,7 @@ listGalleryEl.innerHTML = ItemsGallery;
 
 var lightBox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
+  captionsData: "alt",
+  doubleTapZoom: 1,
 });
 console.log(galleryItems);
