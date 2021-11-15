@@ -26,7 +26,7 @@ function onOpenImgClick(e) {
         const ESC_KEY_CODE = "Escape";
         const isEscKey = e.code === ESC_KEY_CODE;
         if (isEscKey) {
-          instance.close(() => window.removeEventListener("keydown", e));
+          instance.close();
         }
         window.removeEventListener("keydown", e);
       });
