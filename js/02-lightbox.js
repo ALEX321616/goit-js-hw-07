@@ -18,4 +18,4 @@ var lightBox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   doubleTapZoom: 1,
 });
-console.log(galleryItems);
+//console.log(galleryItems);
